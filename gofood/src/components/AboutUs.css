@@ -1,0 +1,319 @@
+.our-team{
+	text-align: center;
+
+}
+#sachin-image{
+	height: auto;
+	width: 220px;
+	
+}
+#nishant-image{
+	height: 300px;
+	width: 220px;
+}
+#saurabh-image{
+	height: 300px;
+	width: 220px;
+}
+#Nishu-image{
+	height: 300px;
+	width: 220px;
+}
+#about-page{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+#about-page,#about-page::before,#about-page::after{
+	box-sizing: inherit;
+}
+#about-section{
+	padding: 50px;
+	text-align: center;
+	background-color: #474e5d;
+	color: white;
+}
+#column1{
+	float: left;
+	width: 24%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+#card1{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+	margin: 8px;
+}
+
+#about-cointainer1{
+	padding: 0 16px;
+}
+#about-cointainer1::after, .row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+#about-title1{
+	color: grey;
+}
+#about-button1{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+#about-button1:hover{
+	background-color: #555;
+}
+#column2{
+	float: left;
+	width: 25%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+#card2{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+	margin: 8px;
+}
+
+#about-cointainer2{
+	padding: 0 16px;
+}
+#about-cointainer2::after, .row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+#about-title2{
+	color: grey;
+}
+#about-button2{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+#about-button2:hover{
+	background-color: #555;
+}
+#column3{
+	float: left;
+	width: 24%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+#card3{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+	margin: 8px;
+}
+
+#about-cointainer3{
+	padding: 0 16px;
+}
+#about-cointainer3::after, .row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+#about-title3{
+	color: grey;
+}
+#about-button3{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+#about-button3:hover{
+	background-color: #555;
+}
+
+#column4{
+	float: left;
+	width: 25%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+#card4{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+	margin: 8px;
+}
+
+#about-cointainer4{
+	padding: 0 16px;
+}
+#about-cointainer4::after, .row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+#about-title4{
+	color: grey;
+}
+#about-button4{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+#about-button4:hover{
+	background-color: #555;
+}
+@media screen and (max-width : 650px) {
+	#column1{
+		width: 100%;
+		display: block;
+
+	}
+	#column2{
+		width: 100%;
+		display: block;
+
+	}
+	#column3{
+		width: 100%;
+		display: block;
+
+	}
+  #column4{
+		width: 100%;
+		display: block;
+
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+ .about-us {
+    text-align: center;
+    margin: 20px;
+  } 
+  
+  .team-member {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+   */
+
+
+
+   /* .about-us {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .team-member-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .team-member-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #777;
+  } */
+/*   
+  img {
+    border-radius: 50%;
+  } */
+   
+  /* .about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    margin: 20px;
+  }
+  .team-member-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #555;
+    margin-top: 0; Add this line to remove the default top margin
+  } */
+    
+
